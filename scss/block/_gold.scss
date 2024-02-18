@@ -1,0 +1,46 @@
+.gold {
+    padding: 100px 0px;
+
+    .gold__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .gold__title {
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 34px;
+            letter-spacing: 0em;
+            color: #000;
+            margin-bottom: 30px;
+        }
+
+        .gold__text {
+            font-family: Libre Franklin;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            color: #6C6C6C;
+            width: 358px;
+            margin-bottom: 20px;
+        }
+
+        .gold__sub-title {
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0em;
+            color: #000;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .gold__container {
+        flex-direction: column;
+        text-align: start;
+    }
+}

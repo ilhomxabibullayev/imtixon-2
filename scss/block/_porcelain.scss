@@ -1,0 +1,89 @@
+.porcelain {
+    padding: 100px;
+
+    .porcelain__container {
+        text-align: center;
+
+        .porcelain__title {
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 2px;
+            color: #D77474;
+            margin-bottom: 10px;
+        }
+
+        .porcelain__sub-title {
+            font-family: Poppins;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            color: #000;
+            margin-bottom: 50px;
+        }
+
+        .porcelain__card {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+        }
+
+        .porcelain__content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: start;
+
+            .porcelain__sub2-title {
+                font-family: Poppins;
+                font-size: 29px;
+                font-weight: 700;
+                line-height: 36px;
+                letter-spacing: 0em;
+                width: 259px;
+                margin-bottom: 30px;
+            }
+
+            .porcelain__sub3-title {
+                font-family: Poppins;
+                font-size: 29px;
+                font-weight: 700;
+                line-height: 36px;
+                letter-spacing: 0em;
+                width: 323px;
+                margin-bottom: 30px;
+            }
+
+            .porcelain__text {
+                font-family: Libre Franklin;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                width: 451px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .porcelain {
+
+        .porcelain__container {
+
+            .porcelain__card {
+                flex-direction: column;
+                width: 400px;
+            }
+        
+            .porcelain__content {
+                flex-direction: column;
+            }
+        }
+    }
+}

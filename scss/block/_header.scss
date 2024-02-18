@@ -1,0 +1,93 @@
+.header {
+    padding: 20px 0px;
+
+    .header__container {
+        display: flex;
+        align-items: center;
+        gap: 600px;
+
+        .header__title {
+            font-family: Pacifico;
+            font-size: 33px;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0em;
+            text-align: center;
+            width: 109px;
+        }
+
+        .header__nav {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            .header__list {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                .header__link {
+                    font-family: Poppins;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 2px;
+                    text-align: left;
+                    color: #000;
+
+                    &:hover {
+                        color: #AC1313;
+                    }
+                }
+            }
+
+            .header__btn {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                background: white;
+
+                .header__img {
+                    width: 20px;
+                    height: 20px;
+                    top: 9px;
+                    left: 16px;
+                    padding: 0px, 0.71px, 0px, 0.71px;
+                }
+
+                .header__sub-title {
+                    font-family: Libre Franklin;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        padding: 10px 30px;
+
+        .header__container {
+            gap: 180px;
+
+            .header__link {
+                display: none;
+            }
+
+            .hamburger__menu {
+                width: 30px;
+    
+                p {
+                    height: 3px;
+                    background-color: #000;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.ceramic {
+    padding: 100px;
+
+    .ceramic__container {
+        text-align: center;
+
+        .ceramic__title {
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 2px;
+            color: #D77474;
+            margin-bottom: 10px;
+        }
+
+        .ceramic__sub-title {
+            font-family: Poppins;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            color: #000;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ceramic {
+
+        .ceramic__container {
+            flex-direction: column;
+        }
+    }
+}

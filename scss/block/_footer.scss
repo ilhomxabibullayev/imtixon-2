@@ -1,0 +1,84 @@
+.footer {
+    padding: 100px 0px;
+    background: #FBFBFB;
+
+    .footer__container {
+        text-align: center;
+
+        .footer__title {
+            font-family: Pacifico;
+            font-size: 33px;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0em;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .footer__text {
+            font-family: Libre Franklin;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            width: 310px;
+            color: #6C6C6C;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
+
+        .footer__content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .footer__img {
+                width: 40px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 5px;
+            }
+
+            .footer__card {
+                margin-bottom: 100px;
+
+                .footer__sub-title {
+                    font-family: Poppins;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 23px;
+                    letter-spacing: 1px;
+                    color: #000;
+                    margin-bottom: 10px;
+                }
+    
+                .footer__sub-text {
+                    font-family: Libre Franklin;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    color: #6C6C6C;
+                }
+            }
+        }
+    }
+}
+
+.footer__sub2-title {
+    color: #6C6C6C;
+    padding: 50px;
+    background-color: #F7F7F7;
+    text-align: center;
+
+    .footer__active {
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer__content {
+        flex-direction: column;
+    }
+}

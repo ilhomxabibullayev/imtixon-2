@@ -1,0 +1,82 @@
+.artist {
+    padding: 100px 0px;
+    background-color: #F8F8F8;
+
+    .artist__container {
+        text-align: center;
+
+        .artist__title {
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 2px;
+            text-align: center;
+            color: #D77474;
+            margin-bottom: 30px;
+        }
+
+        .artist__sub-title {
+            font-family: Poppins;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #000;
+            margin-bottom: 50px;
+        }
+
+        .artist__block {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .artist__card {
+                padding: 50px 30px;
+                background-color: white;
+
+                .artist__img {
+                    width: 90px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                .artist__sub2-title {
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 34px;
+                    letter-spacing: 0em;
+                    color: #000;
+                }
+
+                .artist__sub3-title {
+                    font-family: Libre Franklin;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    color: #6C6C6C;
+                    margin-bottom: 20px;
+                }
+
+                .artist__text {
+                    font-family: Libre Franklin;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    color: #6C6C6C;
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .artist__block {
+        flex-direction: column;
+    }
+}
